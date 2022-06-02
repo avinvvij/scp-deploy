@@ -35,7 +35,7 @@ A GitHub Action that send the build file to a remote server for deployment via s
 ## Example usage
 
 ```yaml
-uses: avinvij26/deploy-via-scp@master
+uses: avinvvij/scp-deploy@master
 with:
   local: localPath # eg: dist/*
   remote: ${{ secrets.REMOTE }} # eg: /home/github-action/www
